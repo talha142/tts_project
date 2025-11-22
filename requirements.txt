@@ -1,4 +1,5 @@
-pyenv install 3.11.9
-pyenv virtualenv 3.11.9 tts-env
-pyenv activate tts-env
-pip install -r requirements.txt
+TTS==0.17.1
+numpy>=1.24.0
+torch>=2.0.0
+torchaudio>=2.0.2
+soundfile
