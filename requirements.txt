@@ -1,8 +1,5 @@
-streamlit==1.25.0
-TTS==0.14.1          # Coqui TTS - check latest; install may require torch
-torch>=2.1.0         # CPU or CUDA version depending on host
-pydub
-soundfile
-numpy
-requests             # if using OpenTTS server option
-python-dotenv
+streamlit>=1.30.0
+edge-tts>=6.1.9
+pydub>=0.25.1
+nest_asyncio>=1.5.8
+imageio-ffmpeg>=0.4.9
