@@ -1,6 +1,8 @@
-TTS==0.18.2
 streamlit==1.25.0
-cython==0.29.30
-packaging==23.1
-numpy==1.24.3
-pydub==0.25.1
+TTS==0.14.1          # Coqui TTS - check latest; install may require torch
+torch>=2.1.0         # CPU or CUDA version depending on host
+pydub
+soundfile
+numpy
+requests             # if using OpenTTS server option
+python-dotenv
